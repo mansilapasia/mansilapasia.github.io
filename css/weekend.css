@@ -1,0 +1,58 @@
+		
+
+/* The Modal (background) */
+[id^=modal] {
+  display: none; /* Hidden by default */
+  position: absolute; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 300px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+ 
+ /* background-color: rgb(0,0,0); *//* Fallback color */
+ /* background-color: rgba(0,0,0,0.4);*/ /* Black w/ opacity */
+  
+}
+input[type=checkbox] {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  }
+
+#modal1:target{
+display:block;}
+#modal2:target{
+	display:block;
+}
+#modal3:target{
+display:block;}
+[id^=modal] a{
+	float:right;
+}
+
+.coupon {
+  border: 5px dotted #bbb;
+  width: 80%;
+  border-radius: 15px;
+  margin: 0 auto;
+  max-width: 600px;
+   animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+.con {
+	margin:auto;
+  padding: 2px 16px;
+  background-color: #f1f1f1;
+}
+
+}
+
+.column {
+  float: left;
+  width: 32%;
+  padding: 0 10px;
+}
+
+.row {margin: 0 150px;}
