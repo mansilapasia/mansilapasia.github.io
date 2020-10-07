@@ -1,0 +1,17 @@
+User-Agent: *
+Disallow: 
+Disallow: /videos/
+Disallow: /Travel_Quotes.html
+Crawl-delay: 5
+
+User-Agent: Googlebot
+Allow: /
+
+User-Agent: Googlebot-Image
+Disallow: /
+
+User-Agent: Mediapartners-Google
+Allow: /
+
+User-Agent: Slurp
+Disallow: /
